@@ -2,9 +2,9 @@ import Header from '@/app/components/Header'
 import NavLinks from '@/app/components/NavLinks'
 import LunchboxGrid from '@/app/lunchbox/core/LunchboxGrid'
 import LunchboxItemLinkGitHub from '@/app/lunchbox/prebuilt/LunchboxItemLinkGitHub'
-import LunchboxItemLinkLinkedin from '@/app/lunchbox/prebuilt/LunchboxItemLinkLinkedin'
-import LunchboxItemLinkTwitter from '@/app/lunchbox/prebuilt/LunchboxItemLinkTwitter'
 import LunchboxItemLinkInstagram from '@/app/lunchbox/prebuilt/LunchboxItemLinkInstagram'
+import LunchboxItemLinkLinkedin from '@/app/lunchbox/prebuilt/LunchboxItemLinkLinkedin'
+import LunchboxItemLinkTelegram from './lunchbox/prebuilt/LunchboxItemLinkTelegram'
 
 export default function HomePage() {
     return (
@@ -42,10 +42,10 @@ export default function HomePage() {
                         cols={2}
                         username="nurmukhamed.bkv"
                     />
-                    <LunchboxItemLinkTwitter
+                    <LunchboxItemLinkTelegram
                         rows={1}
                         cols={4}
-                        username="Nurmukhamed7"
+                        username="nurikdev26"
                     />
                 </LunchboxGrid>
             </section>
