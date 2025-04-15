@@ -1,9 +1,8 @@
-import React from 'react'
 import Header from '@/app/components/Header'
 import NavLinks from '@/app/components/NavLinks'
 import LunchboxGrid from '@/app/lunchbox/core/LunchboxGrid'
-import LunchboxItemJobPosition from '@/app/lunchbox/layouts/LunchboxItemJobPosition'
 import LunchboxIcon from '@/app/lunchbox/core/LunchboxIcon'
+import LunchboxItemJobPosition from '@/app/lunchbox/layouts/LunchboxItemJobPosition'
 import Link from 'next/link'
 import { FaUpwork } from 'react-icons/fa6'
 
@@ -159,6 +158,33 @@ function ResumePage() {
                                     title: 'chess-game',
                                     href: 'https://github.com/Nurmukhamed7/chess',
                                     description: <>React-based Chess Game</>,
+                                },
+                                {
+                                    year: 2023,
+                                    title: 'landing website for smart home',
+                                    href: 'https://nur-home-smart.netlify.app/',
+                                    description: (
+                                        <>Vanilla Javascript website</>
+                                    ),
+                                },
+                                {
+                                    year: 2023,
+                                    title: 'landing website for online education',
+                                    href: 'https://nurmukhamed-youdemi.netlify.app/',
+                                    description: (
+                                        <>Vanilla Javascript website</>
+                                    ),
+                                },
+                                {
+                                    year: 2023,
+                                    title: 'vanilla JavaScript bank app',
+                                    href: 'https://github.com/Nurmukhamed7/bank-app',
+                                    description: (
+                                        <>
+                                            Application built without external
+                                            libraries or frameworks.
+                                        </>
+                                    ),
                                 },
                             ].map(({ year, title, href, description }) => (
                                 <li key={href}>
