@@ -15,11 +15,11 @@ export default function HomePage() {
                     About
                 </h2>
                 <p className="text-zinc-600 col-span-3">
-                    Interested in full-stack development with commercial
-                    experience in frontend and backend. Enhancing my knowledge
-                    of Data Structures and Algorithms by solving LeetCode
-                    problems. Holder of a Temporary Residence Permit (Karta
-                    Pobytu) with work authorization in Poland until 2027.
+                    Full-Stack Developer (Python / Next.js). Skilled in Python
+                    (Django), JavaScript (TypeScript), Git, SQL (Postgres,
+                    MySQL), NoSQL (Redis, MongoDB), Linux, Docker, Cloud
+                    platforms (DigitalOcean, AWS), and frontend frameworks
+                    (Next.js).
                 </p>
             </section>
             <section className="grid gap-y-6">

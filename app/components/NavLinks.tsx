@@ -6,7 +6,7 @@ const links = [
     //     href: '/blog',
     // },
     {
-        label: 'Main',
+        label: 'Home',
         href: '/',
     },
     {
